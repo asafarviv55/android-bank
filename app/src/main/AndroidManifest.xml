@@ -24,6 +24,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AccountListActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TransactionHistoryActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FundTransferActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CardManagementActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoanManagementActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BeneficiaryManagementActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BillPaymentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DepositActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ATMLocatorActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".InvestmentPortfolioActivity"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
